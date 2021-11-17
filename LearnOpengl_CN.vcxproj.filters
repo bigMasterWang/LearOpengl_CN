@@ -24,6 +24,12 @@
     <ClCompile Include="src\primer\HelloTriangle\HelloTriangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\tools\shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\primer\glsl\Glsl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -32,5 +38,15 @@
     <ClInclude Include="src\primer\HelloTriangle\HelloTriangle.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\tools\shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\primer\glsl\Glsl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\primer\glsl\vertex.shader" />
+    <None Include="src\primer\glsl\fragment.shader" />
   </ItemGroup>
 </Project>

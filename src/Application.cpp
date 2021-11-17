@@ -1,10 +1,9 @@
 
-#include"primer/HelloTriangle/HelloTriangle.h"
-
+#include"primer/glsl/Glsl.h"
 
 int main()
 {
-	HelloTriangle ht;
-	ht.run();
+	Glsl glsl;
+	glsl.run();
 	return 0;
 }

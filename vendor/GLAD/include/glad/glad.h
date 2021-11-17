@@ -3382,7 +3382,7 @@ extern "C" {
 	GLAPI PFNGLGETATTRIBLOCATIONPROC glad_glGetAttribLocation;
 #define glGetAttribLocation glad_glGetAttribLocation
 	typedef void (APIENTRYP PFNGLGETPROGRAMIVPROC)(GLuint program, GLenum pname, GLint* params);
-	GLAPI PFNGLGETPROGRAMIVPROC shader_program;
+	GLAPI PFNGLGETPROGRAMIVPROC glad_glGetProgramiv;
 #define glGetProgramiv glad_glGetProgramiv
 	typedef void (APIENTRYP PFNGLGETPROGRAMINFOLOGPROC)(GLuint program, GLsizei bufSize, GLsizei* length, GLchar* infoLog);
 	GLAPI PFNGLGETPROGRAMINFOLOGPROC glad_glGetProgramInfoLog;

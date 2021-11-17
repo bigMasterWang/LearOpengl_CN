@@ -5,18 +5,6 @@
 
 
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-	glViewport(0, 0, width, height);
-}
-
-
-void processInput(GLFWwindow* window)
-{
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-		glfwSetWindowShouldClose(window, true);
-}
-
 
 int HelloTriangle::run()
 {
@@ -42,7 +30,6 @@ int HelloTriangle::run()
 		return -1;
 	}
 
-	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
 
 	float vertices[] = {
@@ -139,8 +126,6 @@ int HelloTriangle::run()
 
 	while (!glfwWindowShouldClose(window))
 	{
-		//input 
-		processInput(window);
 
 		//render
 		glUseProgram(shader_program);
