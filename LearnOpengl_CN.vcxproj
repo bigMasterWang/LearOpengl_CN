@@ -133,17 +133,23 @@
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\primer\glsl\Glsl.cpp" />
     <ClCompile Include="src\primer\HelloTriangle\HelloTriangle.cpp" />
+    <ClCompile Include="src\primer\texture\Texture.cpp" />
     <ClCompile Include="src\tools\shader.cpp" />
+    <ClCompile Include="src\tools\stb_mage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\primer\glsl\Glsl.h" />
     <ClInclude Include="src\primer\HelloTriangle\HelloTriangle.h" />
+    <ClInclude Include="src\primer\texture\Texture.h" />
     <ClInclude Include="src\test.h" />
     <ClInclude Include="src\tools\shader.h" />
+    <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\fragment.shader" />
     <None Include="src\primer\glsl\vertex.shader" />
+    <None Include="src\primer\texture\fragment.shader" />
+    <None Include="src\primer\texture\vertex.shader" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

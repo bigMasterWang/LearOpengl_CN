@@ -1,9 +1,10 @@
 
 #include"primer/glsl/Glsl.h"
+#include"primer/texture/Texture.h"
 
 int main()
 {
-	Glsl glsl;
+	Texture glsl;
 	glsl.run();
 	return 0;
 }

@@ -81,3 +81,9 @@ void Shader::unbind()
 {
 	glUseProgram(0);
 }
+
+void Shader::set_int(const char* name, int _index)
+{
+	int location = glGetUniformLocation(shader_program, name);
+	glUniform1i(location, _index);
+}

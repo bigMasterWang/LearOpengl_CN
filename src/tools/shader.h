@@ -11,4 +11,6 @@ public:
 	void bind();
 	void unbind();
 	void set_float(const char* name, float offset);
+	void set_int(const char* name, int _index);
+	inline int get_id() { return shader_program; }
 };
