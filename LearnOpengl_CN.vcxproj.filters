@@ -36,6 +36,9 @@
     <ClCompile Include="src\tools\stb_mage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\primer\transform\Transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -56,11 +59,16 @@
     <ClInclude Include="src\tools\stb_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\primer\transform\Transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
     <None Include="src\primer\glsl\fragment.shader" />
     <None Include="src\primer\texture\fragment.shader" />
     <None Include="src\primer\texture\vertex.shader" />
+    <None Include="src\primer\transform\vertex.shader" />
+    <None Include="src\primer\transform\fragment.shader" />
   </ItemGroup>
 </Project>
