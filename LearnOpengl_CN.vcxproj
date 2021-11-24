@@ -131,23 +131,38 @@
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\light\color\Color.cpp" />
+    <ClCompile Include="src\primer\camera\CameraLession.cpp" />
+    <ClCompile Include="src\primer\cooridinate\Cooridinate.cpp" />
     <ClCompile Include="src\primer\glsl\Glsl.cpp" />
     <ClCompile Include="src\primer\HelloTriangle\HelloTriangle.cpp" />
     <ClCompile Include="src\primer\texture\Texture.cpp" />
     <ClCompile Include="src\primer\transform\Transform.cpp" />
+    <ClCompile Include="src\tools\Camera.cpp" />
     <ClCompile Include="src\tools\shader.cpp" />
     <ClCompile Include="src\tools\stb_mage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\light\color\Color.h" />
+    <ClInclude Include="src\primer\camera\CameraLession.h" />
+    <ClInclude Include="src\primer\cooridinate\Cooridinate.h" />
     <ClInclude Include="src\primer\glsl\Glsl.h" />
     <ClInclude Include="src\primer\HelloTriangle\HelloTriangle.h" />
     <ClInclude Include="src\primer\texture\Texture.h" />
     <ClInclude Include="src\primer\transform\Transform.h" />
     <ClInclude Include="src\test.h" />
+    <ClInclude Include="src\tools\Camera.h" />
     <ClInclude Include="src\tools\shader.h" />
     <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\light\color\fragment.shader" />
+    <None Include="src\light\color\light_fragment.shader" />
+    <None Include="src\light\color\vertex.shader" />
+    <None Include="src\primer\camera\fragment.shader" />
+    <None Include="src\primer\camera\vertex.shader" />
+    <None Include="src\primer\cooridinate\fragment.shader" />
+    <None Include="src\primer\cooridinate\vertex.shader" />
     <None Include="src\primer\glsl\fragment.shader" />
     <None Include="src\primer\glsl\vertex.shader" />
     <None Include="src\primer\texture\fragment.shader" />

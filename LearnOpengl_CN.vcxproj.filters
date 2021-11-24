@@ -39,6 +39,18 @@
     <ClCompile Include="src\primer\transform\Transform.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\primer\cooridinate\Cooridinate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\primer\camera\CameraLession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light\color\Color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -62,6 +74,18 @@
     <ClInclude Include="src\primer\transform\Transform.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\primer\cooridinate\Cooridinate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\primer\camera\CameraLession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light\color\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -70,5 +94,12 @@
     <None Include="src\primer\texture\vertex.shader" />
     <None Include="src\primer\transform\vertex.shader" />
     <None Include="src\primer\transform\fragment.shader" />
+    <None Include="src\primer\cooridinate\fragment.shader" />
+    <None Include="src\primer\cooridinate\vertex.shader" />
+    <None Include="src\primer\camera\fragment.shader" />
+    <None Include="src\primer\camera\vertex.shader" />
+    <None Include="src\light\color\fragment.shader" />
+    <None Include="src\light\color\light_fragment.shader" />
+    <None Include="src\light\color\vertex.shader" />
   </ItemGroup>
 </Project>

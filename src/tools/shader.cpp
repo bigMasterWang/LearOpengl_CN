@@ -4,6 +4,9 @@
 #include<sstream>
 #include<iostream>
 #include<string>
+#include <gtc/type_ptr.hpp>
+
+
 
 Shader::~Shader()
 {
@@ -86,4 +89,17 @@ void Shader::set_int(const char* name, int _index)
 {
 	int location = glGetUniformLocation(shader_program, name);
 	glUniform1i(location, _index);
+}
+
+void Shader::set_mat4(const char* name, glm::mat4* matrix)
+{
+	int location = glGetUniformLocation(shader_program, name);
+	glUniformMatrix4fv(location, 1, GL_FALSE, glm::value_ptr(*matrix));
+}
+
+void Shader::set_vec3(const char* name, glm::vec3* vector)
+{
+	int location = glGetUniformLocation(shader_program, name);
+	bind();
+	glUniform3fv(location, 1, glm::value_ptr(*vector));
 }
