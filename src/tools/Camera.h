@@ -20,6 +20,7 @@ public:
 	glm::mat4 get_look_at_matrix();
 	void input_callback(GLFWwindow* window, float delta_time);
 	void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+	inline glm::vec3 get_pos() { return cameraPos; }
 };
 
 

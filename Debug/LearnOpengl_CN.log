@@ -1,2 +1,3 @@
-﻿  Application.cpp
+﻿  BaseLight.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\base_light\BaseLight.cpp(220,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Debug\LearnOpengl_CN.exe

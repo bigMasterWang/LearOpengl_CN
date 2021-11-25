@@ -85,6 +85,12 @@ void Shader::unbind()
 	glUseProgram(0);
 }
 
+void Shader::set_float(const char* name, float offset)
+{
+	int location = glGetUniformLocation(shader_program, name);
+	glUniform1f(location, offset);
+}
+
 void Shader::set_int(const char* name, int _index)
 {
 	int location = glGetUniformLocation(shader_program, name);
