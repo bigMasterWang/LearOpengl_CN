@@ -4,10 +4,11 @@
 #include"primer/cooridinate/Cooridinate.h"
 #include"primer/camera/CameraLession.h"
 #include"light/color/Color.h"
-#include"light/base_light/BaseLight.h"]
+#include"light/base_light/BaseLight.h"
+#include"light/material/Material.h"
 
 int main()
 {
-	BaseLight glsl;
+	Material glsl;
 	return glsl.run();
 }
