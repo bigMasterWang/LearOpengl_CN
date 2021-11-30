@@ -57,6 +57,9 @@
     <ClCompile Include="src\light\material\Material.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\light\light_texture\LightTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -98,6 +101,9 @@
     <ClInclude Include="src\light\material\Material.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\light\light_texture\LightTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -116,5 +122,8 @@
     <None Include="src\light\material\fragment.shader" />
     <None Include="src\light\material\light_fragment.shader" />
     <None Include="src\light\material\vertex.shader" />
+    <None Include="src\light\light_texture\fragment.shader" />
+    <None Include="src\light\light_texture\light_fragment.shader" />
+    <None Include="src\light\light_texture\vertex.shader" />
   </ItemGroup>
 </Project>

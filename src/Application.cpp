@@ -6,9 +6,10 @@
 #include"light/color/Color.h"
 #include"light/base_light/BaseLight.h"
 #include"light/material/Material.h"
+#include"light/light_texture/LightTexture.h"
 
 int main()
 {
-	Material glsl;
+	LightTexture glsl;
 	return glsl.run();
 }
