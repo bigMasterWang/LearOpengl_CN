@@ -132,6 +132,7 @@
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\light\base_light\BaseLight.cpp" />
+    <ClCompile Include="src\light\cast_light\CastLight.cpp" />
     <ClCompile Include="src\light\color\Color.cpp" />
     <ClCompile Include="src\light\light_texture\LightTexture.cpp" />
     <ClCompile Include="src\light\material\Material.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\light\base_light\BaseLight.h" />
+    <ClInclude Include="src\light\cast_light\CastLight.h" />
     <ClInclude Include="src\light\color\Color.h" />
     <ClInclude Include="src\light\light_texture\LightTexture.h" />
     <ClInclude Include="src\light\material\Material.h" />
@@ -162,6 +164,9 @@
     <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\light\cast_light\fragment.shader" />
+    <None Include="src\light\cast_light\light_fragment.shader" />
+    <None Include="src\light\cast_light\vertex.shader" />
     <None Include="src\light\color\fragment.shader" />
     <None Include="src\light\color\light_fragment.shader" />
     <None Include="src\light\color\vertex.shader" />

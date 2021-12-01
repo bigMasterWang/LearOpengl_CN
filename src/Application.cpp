@@ -7,9 +7,10 @@
 #include"light/base_light/BaseLight.h"
 #include"light/material/Material.h"
 #include"light/light_texture/LightTexture.h"
+#include"light/cast_light/CastLight.h"
 
 int main()
 {
-	LightTexture glsl;
+	CastLight glsl;
 	return glsl.run();
 }

@@ -21,6 +21,7 @@ public:
 	void input_callback(GLFWwindow* window, float delta_time);
 	void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 	inline glm::vec3 get_pos() { return cameraPos; }
+	inline glm::vec3 get_dir() { return cameraFront; }
 };
 
 
