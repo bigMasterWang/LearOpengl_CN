@@ -63,6 +63,9 @@
     <ClCompile Include="src\light\cast_light\CastLight.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\light\multiple_lights\MultipleLights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -110,6 +113,9 @@
     <ClInclude Include="src\light\cast_light\CastLight.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\light\multiple_lights\MultipleLights.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -134,5 +140,8 @@
     <None Include="src\light\cast_light\fragment.shader" />
     <None Include="src\light\cast_light\light_fragment.shader" />
     <None Include="src\light\cast_light\vertex.shader" />
+    <None Include="src\light\multiple_lights\fragment.shader" />
+    <None Include="src\light\multiple_lights\light_fragment.shader" />
+    <None Include="src\light\multiple_lights\vertex.shader" />
   </ItemGroup>
 </Project>

@@ -136,6 +136,7 @@
     <ClCompile Include="src\light\color\Color.cpp" />
     <ClCompile Include="src\light\light_texture\LightTexture.cpp" />
     <ClCompile Include="src\light\material\Material.cpp" />
+    <ClCompile Include="src\light\multiple_lights\MultipleLights.cpp" />
     <ClCompile Include="src\primer\camera\CameraLession.cpp" />
     <ClCompile Include="src\primer\cooridinate\Cooridinate.cpp" />
     <ClCompile Include="src\primer\glsl\Glsl.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="src\light\color\Color.h" />
     <ClInclude Include="src\light\light_texture\LightTexture.h" />
     <ClInclude Include="src\light\material\Material.h" />
+    <ClInclude Include="src\light\multiple_lights\MultipleLights.h" />
     <ClInclude Include="src\primer\camera\CameraLession.h" />
     <ClInclude Include="src\primer\cooridinate\Cooridinate.h" />
     <ClInclude Include="src\primer\glsl\Glsl.h" />
@@ -176,6 +178,9 @@
     <None Include="src\light\material\fragment.shader" />
     <None Include="src\light\material\light_fragment.shader" />
     <None Include="src\light\material\vertex.shader" />
+    <None Include="src\light\multiple_lights\fragment.shader" />
+    <None Include="src\light\multiple_lights\light_fragment.shader" />
+    <None Include="src\light\multiple_lights\vertex.shader" />
     <None Include="src\primer\camera\fragment.shader" />
     <None Include="src\primer\camera\vertex.shader" />
     <None Include="src\primer\cooridinate\fragment.shader" />

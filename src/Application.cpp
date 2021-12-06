@@ -8,9 +8,10 @@
 #include"light/material/Material.h"
 #include"light/light_texture/LightTexture.h"
 #include"light/cast_light/CastLight.h"
+#include"light/multiple_lights/MultipleLights.h"
 
 int main()
 {
-	CastLight glsl;
+	MultipleLights glsl;
 	return glsl.run();
 }

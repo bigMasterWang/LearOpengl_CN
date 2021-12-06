@@ -51,7 +51,6 @@ void Camera::mouse_callback(GLFWwindow* window, double xpos, double ypos)
 	front.y = sin(glm::radians(pitch));
 	front.z = cos(glm::radians(-yaw)) * cos(glm::radians(pitch));
 	cameraFront = glm::normalize(front);
-	std::cout << cameraFront.x << ", " << cameraFront.y << "," << cameraFront.z << std::endl;
 }
 
 void Camera::input_callback(GLFWwindow* window, float delta_time)
