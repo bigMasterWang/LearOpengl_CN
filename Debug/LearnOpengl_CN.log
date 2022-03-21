@@ -1,3 +1,3 @@
-﻿  MultipleLights.cpp
-E:\VSProjects\LearnOpengl_CN\src\light\multiple_lights\MultipleLights.cpp(251,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+﻿  ShadowMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.cpp(293,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Debug\LearnOpengl_CN.exe

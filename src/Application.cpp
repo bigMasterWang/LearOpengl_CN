@@ -10,8 +10,10 @@
 #include"light/cast_light/CastLight.h"
 #include"light/multiple_lights/MultipleLights.h"
 
-int main()
-{
-	MultipleLights glsl;
+#include"advance/frame_buffer/FrameBuffer.h"
+#include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
+
+int main() {
+	ShadowMapping glsl;
 	return glsl.run();
 }

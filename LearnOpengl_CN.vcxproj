@@ -129,6 +129,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\advanced_lighting\shadow\shadow_mapping\save.cpp" />
+    <ClCompile Include="src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.cpp" />
+    <ClCompile Include="src\advance\frame_buffer\FrameBuffer.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\light\base_light\BaseLight.cpp" />
@@ -148,6 +151,8 @@
     <ClCompile Include="src\tools\stb_mage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.h" />
+    <ClInclude Include="src\advance\frame_buffer\FrameBuffer.h" />
     <ClInclude Include="src\light\base_light\BaseLight.h" />
     <ClInclude Include="src\light\cast_light\CastLight.h" />
     <ClInclude Include="src\light\color\Color.h" />
@@ -166,6 +171,16 @@
     <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\box_fs.shader" />
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\box_vs.shader" />
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\fs.shader" />
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\simple_depth_fs.shader" />
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\simple_depth_vs.shader" />
+    <None Include="src\advanced_lighting\shadow\shadow_mapping\vs.shader" />
+    <None Include="src\advance\frame_buffer\frame_buffer.fs" />
+    <None Include="src\advance\frame_buffer\frame_buffer.vs" />
+    <None Include="src\advance\frame_buffer\scene_shader.fs" />
+    <None Include="src\advance\frame_buffer\scene_shader.vs" />
     <None Include="src\light\cast_light\fragment.shader" />
     <None Include="src\light\cast_light\light_fragment.shader" />
     <None Include="src\light\cast_light\vertex.shader" />
