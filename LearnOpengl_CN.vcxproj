@@ -129,8 +129,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\advanced_lighting\point_shadow\PointShadow.cpp" />
     <ClCompile Include="src\advanced_lighting\shadow\shadow_mapping\save.cpp" />
     <ClCompile Include="src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.cpp" />
+    <ClCompile Include="src\advance\cube_map\CubeMap.cpp" />
     <ClCompile Include="src\advance\frame_buffer\FrameBuffer.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\glad.c" />
@@ -147,11 +149,14 @@
     <ClCompile Include="src\primer\texture\Texture.cpp" />
     <ClCompile Include="src\primer\transform\Transform.cpp" />
     <ClCompile Include="src\tools\Camera.cpp" />
+    <ClCompile Include="src\tools\common_tools.cpp" />
     <ClCompile Include="src\tools\shader.cpp" />
     <ClCompile Include="src\tools\stb_mage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\advanced_lighting\point_shadow\PointShadow.h" />
     <ClInclude Include="src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.h" />
+    <ClInclude Include="src\advance\cube_map\CubeMap.h" />
     <ClInclude Include="src\advance\frame_buffer\FrameBuffer.h" />
     <ClInclude Include="src\light\base_light\BaseLight.h" />
     <ClInclude Include="src\light\cast_light\CastLight.h" />
@@ -167,16 +172,26 @@
     <ClInclude Include="src\primer\transform\Transform.h" />
     <ClInclude Include="src\test.h" />
     <ClInclude Include="src\tools\Camera.h" />
+    <ClInclude Include="src\tools\common_tools.h" />
     <ClInclude Include="src\tools\shader.h" />
     <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\advanced_lighting\point_shadow\fs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_fs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_gs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_vs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\vs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\box_fs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\box_vs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\fs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\simple_depth_fs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\simple_depth_vs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\vs.shader" />
+    <None Include="src\advance\cube_map\scene_shader.fs" />
+    <None Include="src\advance\cube_map\scene_shader.vs" />
+    <None Include="src\advance\cube_map\sky.fs" />
+    <None Include="src\advance\cube_map\sky.vs" />
     <None Include="src\advance\frame_buffer\frame_buffer.fs" />
     <None Include="src\advance\frame_buffer\frame_buffer.vs" />
     <None Include="src\advance\frame_buffer\scene_shader.fs" />
@@ -206,6 +221,21 @@
     <None Include="src\primer\texture\vertex.shader" />
     <None Include="src\primer\transform\fragment.shader" />
     <None Include="src\primer\transform\vertex.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\image\awesomeface.png" />
+    <Image Include="res\image\container.jpg" />
+    <Image Include="res\image\container2.png" />
+    <Image Include="res\image\container2_specular.png" />
+    <Image Include="res\image\cube_map\back.jpg" />
+    <Image Include="res\image\cube_map\bottom.jpg" />
+    <Image Include="res\image\cube_map\front.jpg" />
+    <Image Include="res\image\cube_map\left.jpg" />
+    <Image Include="res\image\cube_map\right.jpg" />
+    <Image Include="res\image\cube_map\top.jpg" />
+    <Image Include="res\image\happy_photo.jpg" />
+    <Image Include="res\image\happy_photo2.jpg" />
+    <Image Include="res\image\wood.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

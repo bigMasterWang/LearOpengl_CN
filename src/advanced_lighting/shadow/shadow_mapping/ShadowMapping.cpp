@@ -9,45 +9,10 @@
 #include"tools/Camera.h"
 #include<vector>
 #include<sstream>
+#include"tools/common_tools.h"
 #include"ShadowMapping.h"
 
 
-
-unsigned int create_texture(const char* image_path)
-{
-	unsigned int floor_texture;
-	glGenTextures(1, &floor_texture);
-
-	int width, height, nrComponents;
-	unsigned char* data = stbi_load(image_path, &width, &height, &nrComponents, 0);
-	if (data)
-	{
-		GLenum format;
-		if (nrComponents == 1)
-			format = GL_RED;
-		else if (nrComponents == 3)
-			format = GL_RGB;
-		else if (nrComponents == 4)
-			format = GL_RGBA;
-
-		glBindTexture(GL_TEXTURE_2D, floor_texture);
-		glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
-		glGenerateMipmap(GL_TEXTURE_2D);
-
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, format == GL_RGBA ? GL_CLAMP_TO_EDGE : GL_REPEAT); // for this tutorial: use GL_CLAMP_TO_EDGE to prevent semi-transparent borders. Due to interpolation it takes texels from next repeat 
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, format == GL_RGBA ? GL_CLAMP_TO_EDGE : GL_REPEAT);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-		stbi_image_free(data);
-	}
-	else
-	{
-		std::cout << "Texture failed to load at path" << std::endl;
-		stbi_image_free(data);
-	}
-	return floor_texture;
-}
 
 
 int ShadowMapping::run()
@@ -185,7 +150,6 @@ int ShadowMapping::run()
 	unsigned int floor_texture = create_texture("E:/VSProjects/LearnOpengl_CN/res/image/wood.png");
 	unsigned int box_texture = create_texture("E:/VSProjects/LearnOpengl_CN/res/image/happy_photo2.jpg");
 
-
 	// 帧缓冲对象
 	unsigned int fbo;
 	glGenFramebuffers(1, &fbo);
@@ -200,8 +164,9 @@ int ShadowMapping::run()
 		SHADOW_WIDTH, SHADOW_HEIGHT, 0, GL_DEPTH_COMPONENT, GL_FLOAT, NULL);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
 
 	glBindFramebuffer(GL_FRAMEBUFFER, fbo);
 	// 创建好纹理后, 将他附加到帧缓冲上
@@ -290,6 +255,13 @@ int ShadowMapping::run()
 
 	while (!glfwWindowShouldClose(window))
 	{
+		GLenum errCode;
+		const GLubyte* errString;
+		while ((errCode = glGetError()) != GL_NO_ERROR)
+		{
+			errString = glGetString(errCode);
+			fprintf(stderr, "OpenGL error:%s \n", errString);
+		}
 		current_time = glfwGetTime();
 		delta_time = current_time - last_frame_time;
 		last_frame_time = current_time;
@@ -412,10 +384,3 @@ int ShadowMapping::run()
 	glfwTerminate();
 	return 0;
 }
-//GLenum errCode;
-//const GLubyte* errString;
-//while ((errCode = glGetError()) != GL_NO_ERROR)
-//{
-//	errString = glGetString(errCode);
-//	fprintf(stderr, "OpenGL error:%s \n", errString);
-//}

@@ -75,6 +75,15 @@
     <ClCompile Include="src\advanced_lighting\shadow\shadow_mapping\save.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\advanced_lighting\point_shadow\PointShadow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\advance\cube_map\CubeMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\common_tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -131,6 +140,15 @@
     <ClInclude Include="src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\advanced_lighting\point_shadow\PointShadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\advance\cube_map\CubeMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\common_tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -168,5 +186,55 @@
     <None Include="src\advanced_lighting\shadow\shadow_mapping\vs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\box_vs.shader" />
     <None Include="src\advanced_lighting\shadow\shadow_mapping\box_fs.shader" />
+    <None Include="src\advance\cube_map\scene_shader.fs" />
+    <None Include="src\advance\cube_map\scene_shader.vs" />
+    <None Include="src\advance\cube_map\sky.fs" />
+    <None Include="src\advance\cube_map\sky.vs" />
+    <None Include="src\advanced_lighting\point_shadow\fs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\vs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_vs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_fs.shader" />
+    <None Include="src\advanced_lighting\point_shadow\simple_depth_gs.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\image\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\container2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\container2_specular.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\happy_photo.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\happy_photo2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\wood.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\back.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\bottom.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\front.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\left.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\right.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\image\cube_map\top.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
