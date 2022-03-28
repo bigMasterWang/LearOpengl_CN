@@ -14,10 +14,11 @@
 
 //#include"advance/cube_map/CubeMap.h"
 // #include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
-#include"advanced_lighting/point_shadow/PointShadow.h"
+//include"advanced_lighting/point_shadow/PointShadow.h"
+#include"advanced_lighting/normal_mapping/NormalMapping.h"
 
 
 int main() {
-	PointShadow glsl;
+	NormalMapping glsl;
 	return glsl.run();
 }

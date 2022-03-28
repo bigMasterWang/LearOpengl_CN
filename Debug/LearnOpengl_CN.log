@@ -1,3 +1,6 @@
-﻿  PointShadow.cpp
-E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\point_shadow\PointShadow.cpp(228,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+﻿  NormalMapping.cpp
+  Application.cpp
+  正在生成代码...
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\normal_mapping\NormalMapping.cpp(222,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Debug\LearnOpengl_CN.exe

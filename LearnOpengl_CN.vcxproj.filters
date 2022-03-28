@@ -84,6 +84,9 @@
     <ClCompile Include="src\tools\common_tools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\advanced_lighting\normal_mapping\NormalMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -149,6 +152,9 @@
     <ClInclude Include="src\tools\common_tools.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\advanced_lighting\normal_mapping\NormalMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -195,6 +201,8 @@
     <None Include="src\advanced_lighting\point_shadow\simple_depth_vs.shader" />
     <None Include="src\advanced_lighting\point_shadow\simple_depth_fs.shader" />
     <None Include="src\advanced_lighting\point_shadow\simple_depth_gs.shader" />
+    <None Include="src\advanced_lighting\normal_mapping\vs.shader" />
+    <None Include="src\advanced_lighting\normal_mapping\fs.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\awesomeface.png">

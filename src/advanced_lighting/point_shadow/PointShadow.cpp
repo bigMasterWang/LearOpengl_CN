@@ -25,7 +25,7 @@ int PointShadow::run()
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 	// ¿ªÆô¿¹¾â³Ý
-	//glfwWindowHint(GLFW_SAMPLES, 4);
+	glfwWindowHint(GLFW_SAMPLES, 4);
 
 	GLFWwindow* window = glfwCreateWindow(800, 600, "LearnOpenGL", NULL, NULL);
 	if (window == NULL)
@@ -342,13 +342,13 @@ int PointShadow::run()
 			}
 		}
 
-		GLenum errCode;
-		const GLubyte* errString;
-		while ((errCode = glGetError()) != GL_NO_ERROR)
-		{
-			errString = glGetString(errCode);
-			fprintf(stderr, "OpenGL error:%s \n", errString);
-		}
+		//GLenum errCode;
+		//const GLubyte* errString;
+		//while ((errCode = glGetError()) != GL_NO_ERROR)
+		//{
+		//	errString = glGetString(errCode);
+		//	fprintf(stderr, "OpenGL error:%s \n", errString);
+		//}
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
