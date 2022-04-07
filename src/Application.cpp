@@ -15,10 +15,11 @@
 //#include"advance/cube_map/CubeMap.h"
 // #include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
 //include"advanced_lighting/point_shadow/PointShadow.h"
-#include"advanced_lighting/normal_mapping/NormalMapping.h"
+//#include"advanced_lighting/normal_mapping/NormalMapping.h"
+#include"advanced_lighting/parallax_mapping/ParallaxMapping.h"
 
 
 int main() {
-	NormalMapping glsl;
+	ParallaxMapping glsl;
 	return glsl.run();
 }

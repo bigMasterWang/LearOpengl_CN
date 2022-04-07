@@ -1,0 +1,8 @@
+﻿  ParallaxMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\parallax_mapping\ParallaxMapping.cpp(160,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码
+  7 of 425 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Release\LearnOpengl_CN.exe
