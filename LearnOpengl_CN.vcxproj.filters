@@ -90,6 +90,9 @@
     <ClCompile Include="src\advanced_lighting\parallax_mapping\ParallaxMapping.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\advanced_lighting\hdr\hdr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -161,6 +164,9 @@
     <ClInclude Include="src\advanced_lighting\parallax_mapping\ParallaxMapping.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\advanced_lighting\hdr\hdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -211,6 +217,10 @@
     <None Include="src\advanced_lighting\normal_mapping\fs.shader" />
     <None Include="src\advanced_lighting\parallax_mapping\vs.shader" />
     <None Include="src\advanced_lighting\parallax_mapping\fs.shader" />
+    <None Include="src\advanced_lighting\hdr\fs.shader" />
+    <None Include="src\advanced_lighting\hdr\vs.shader" />
+    <None Include="src\advanced_lighting\hdr\dp_vs.shader" />
+    <None Include="src\advanced_lighting\hdr\dp_fs.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\awesomeface.png">

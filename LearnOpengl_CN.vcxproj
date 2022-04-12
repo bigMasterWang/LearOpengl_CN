@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\advanced_lighting\hdr\hdr.cpp" />
     <ClCompile Include="src\advanced_lighting\normal_mapping\NormalMapping.cpp" />
     <ClCompile Include="src\advanced_lighting\parallax_mapping\ParallaxMapping.cpp" />
     <ClCompile Include="src\advanced_lighting\point_shadow\PointShadow.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="src\tools\stb_mage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\advanced_lighting\hdr\hdr.h" />
     <ClInclude Include="src\advanced_lighting\normal_mapping\NormalMapping.h" />
     <ClInclude Include="src\advanced_lighting\parallax_mapping\ParallaxMapping.h" />
     <ClInclude Include="src\advanced_lighting\point_shadow\PointShadow.h" />
@@ -181,6 +183,10 @@
     <ClInclude Include="src\tools\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\advanced_lighting\hdr\dp_fs.shader" />
+    <None Include="src\advanced_lighting\hdr\dp_vs.shader" />
+    <None Include="src\advanced_lighting\hdr\fs.shader" />
+    <None Include="src\advanced_lighting\hdr\vs.shader" />
     <None Include="src\advanced_lighting\normal_mapping\fs.shader" />
     <None Include="src\advanced_lighting\normal_mapping\vs.shader" />
     <None Include="src\advanced_lighting\parallax_mapping\fs.shader" />

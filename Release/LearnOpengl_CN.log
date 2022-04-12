@@ -1,8 +1,74 @@
-﻿  ParallaxMapping.cpp
+﻿  hdr.cpp
+  NormalMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\hdr\hdr.cpp(223,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ParallaxMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\normal_mapping\NormalMapping.cpp(222,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  PointShadow.cpp
 E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\parallax_mapping\ParallaxMapping.cpp(160,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  save.cpp
+  ShadowMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\point_shadow\PointShadow.cpp(228,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  CubeMap.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.cpp(265,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\advance\cube_map\CubeMap.cpp(262,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\advance\cube_map\CubeMap.cpp(17,17): warning C4101: “errString”: 未引用的局部变量
+  FrameBuffer.cpp
+E:\VSProjects\LearnOpengl_CN\src\advance\cube_map\CubeMap.cpp(16,9): warning C4101: “errCode”: 未引用的局部变量
+E:\VSProjects\LearnOpengl_CN\src\advance\frame_buffer\FrameBuffer.cpp(231,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\advance\frame_buffer\FrameBuffer.cpp(18,17): warning C4101: “errString”: 未引用的局部变量
+  Application.cpp
+  BaseLight.cpp
+E:\VSProjects\LearnOpengl_CN\src\advance\frame_buffer\FrameBuffer.cpp(17,9): warning C4101: “errCode”: 未引用的局部变量
+  CastLight.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\base_light\BaseLight.cpp(220,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Color.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\cast_light\CastLight.cpp(221,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  LightTexture.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\color\Color.cpp(213,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Material.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\light_texture\LightTexture.cpp(209,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(209,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(283,22): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(283,22): warning C4244:         with
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(283,22): warning C4244:         [
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(283,22): warning C4244:             T=float
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(283,22): warning C4244:         ]
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(284,22): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(284,22): warning C4244:         with
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(284,22): warning C4244:         [
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(284,22): warning C4244:             T=float
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(284,22): warning C4244:         ]
+  MultipleLights.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(285,22): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(285,22): warning C4244:         with
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(285,22): warning C4244:         [
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(285,22): warning C4244:             T=float
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(285,22): warning C4244:         ]
+  CameraLession.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\multiple_lights\MultipleLights.cpp(251,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\primer\camera\CameraLession.cpp(212,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\primer\camera\CameraLession.cpp(235,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Cooridinate.cpp
+  Glsl.cpp
+  HelloTriangle.cpp
+  Texture.cpp
+  正在编译...
+  Transform.cpp
+  Camera.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\camera\CameraLession.cpp(236,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(27,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(28,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(32,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(33,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(34,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(35,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  common_tools.cpp
+  shader.cpp
+  stb_mage.cpp
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.cpp(37,26): warning C4305: “初始化”: 从“double”到“float”截断
+  glad.c
   正在生成代码
-  7 of 425 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    11 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 433 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
   LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Release\LearnOpengl_CN.exe

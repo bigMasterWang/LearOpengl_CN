@@ -9,17 +9,16 @@
 //#include"light/light_texture/LightTexture.h"
 //#include"light/cast_light/CastLight.h"
 //#include"light/multiple_lights/MultipleLights.h"
-//
 //#include"advance/frame_buffer/FrameBuffer.h"
 
 //#include"advance/cube_map/CubeMap.h"
-// #include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
+//#include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
 //include"advanced_lighting/point_shadow/PointShadow.h"
 //#include"advanced_lighting/normal_mapping/NormalMapping.h"
-#include"advanced_lighting/parallax_mapping/ParallaxMapping.h"
-
+//#include"advanced_lighting/parallax_mapping/ParallaxMapping.h"
+#include"advanced_lighting/hdr/hdr.h"
 
 int main() {
-	ParallaxMapping glsl;
+	Hdr glsl;
 	return glsl.run();
 }
