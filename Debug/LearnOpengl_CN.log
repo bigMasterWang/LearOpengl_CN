@@ -1,3 +1,6 @@
-﻿  hdr.cpp
-E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\hdr\hdr.cpp(226,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+﻿  DefferedShadinng.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\deffered_shading\DefferedShadinng.cpp(225,29): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\deffered_shading\DefferedShadinng.cpp(266,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\deffered_shading\DefferedShadinng.cpp(321,25): warning C4018: “<”: 有符号/无符号不匹配
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\deffered_shading\DefferedShadinng.cpp(353,31): warning C4018: “<”: 有符号/无符号不匹配
   LearnOpengl_CN.vcxproj -> E:\VSProjects\LearnOpengl_CN\Debug\LearnOpengl_CN.exe

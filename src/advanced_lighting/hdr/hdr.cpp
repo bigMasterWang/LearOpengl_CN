@@ -204,7 +204,7 @@ int Hdr::run()
 
 
 	glm::vec3 light_colors[] = {
-		glm::vec3(20.0f, 20.0f, 20.0f),
+		glm::vec3(200.0f, 200.0f, 200.0f),
 		glm::vec3(0.1f, 0.0f, 0.0f),
 		glm::vec3(0.0f, 0.0f, 0.2f),
 		glm::vec3(0.0f, 0.1f, 0.0f)

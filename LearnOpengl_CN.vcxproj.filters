@@ -93,6 +93,21 @@
     <ClCompile Include="src\advanced_lighting\hdr\hdr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\advanced_lighting\bloom\bloom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\advanced_lighting\deffered_shading\DefferedShadinng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_model\Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_model\Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\load_model\ModelRun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -167,6 +182,24 @@
     <ClInclude Include="src\advanced_lighting\hdr\hdr.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\advanced_lighting\bloom\bloom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\advanced_lighting\deffered_shading\DefferedShading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\advanced_lighting\deffered_shading\hdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\load_model\Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\load_model\Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\load_model\ModelRun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -221,6 +254,23 @@
     <None Include="src\advanced_lighting\hdr\vs.shader" />
     <None Include="src\advanced_lighting\hdr\dp_vs.shader" />
     <None Include="src\advanced_lighting\hdr\dp_fs.shader" />
+    <None Include="src\advanced_lighting\bloom\fs.shader" />
+    <None Include="src\advanced_lighting\bloom\dp_vs.shader" />
+    <None Include="src\advanced_lighting\bloom\dp_fs.shader" />
+    <None Include="src\advanced_lighting\bloom\vs.shader" />
+    <None Include="src\advanced_lighting\bloom\light_vs.shader" />
+    <None Include="src\advanced_lighting\bloom\light_fs.shader" />
+    <None Include="src\advanced_lighting\bloom\blur_vs.shader" />
+    <None Include="src\advanced_lighting\bloom\blur_fs.shader" />
+    <None Include="src\advanced_lighting\deffered_shading\dp_vs.shader" />
+    <None Include="src\advanced_lighting\deffered_shading\dp_fs.shader" />
+    <None Include="src\advanced_lighting\deffered_shading\fs.shader" />
+    <None Include="src\advanced_lighting\deffered_shading\vs.shader" />
+    <None Include="src\load_model\model_loading.fs" />
+    <None Include="src\load_model\model_loading.vs" />
+    <None Include="src\load_model\single_color.fs" />
+    <None Include="src\advanced_lighting\deffered_shading\light_vs.shader" />
+    <None Include="src\advanced_lighting\deffered_shading\light_fs.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\awesomeface.png">

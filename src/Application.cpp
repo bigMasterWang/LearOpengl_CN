@@ -16,9 +16,12 @@
 //include"advanced_lighting/point_shadow/PointShadow.h"
 //#include"advanced_lighting/normal_mapping/NormalMapping.h"
 //#include"advanced_lighting/parallax_mapping/ParallaxMapping.h"
-#include"advanced_lighting/hdr/hdr.h"
+//#include"advanced_lighting/hdr/hdr.h"
+#include"advanced_lighting/bloom/bloom.h"
+#include"advanced_lighting/deffered_shading/DefferedShading.h"
+//#include"load_model/ModelRun.h"
 
 int main() {
-	Hdr glsl;
+	DefferedShading glsl;
 	return glsl.run();
 }
