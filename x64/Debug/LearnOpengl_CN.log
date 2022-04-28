@@ -1,0 +1,59 @@
+﻿  bloom.cpp
+  DefferedShadinng.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\bloom\bloom.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  hdr.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\deffered_shading\DefferedShadinng.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  NormalMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\hdr\hdr.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  ParallaxMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\normal_mapping\NormalMapping.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  PointShadow.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\parallax_mapping\ParallaxMapping.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  save.cpp
+  ShadowMapping.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\point_shadow\PointShadow.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  CubeMap.cpp
+E:\VSProjects\LearnOpengl_CN\src\advanced_lighting\shadow\shadow_mapping\ShadowMapping.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  FrameBuffer.cpp
+E:\VSProjects\LearnOpengl_CN\src\advance\cube_map\CubeMap.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Application.cpp
+  BaseLight.cpp
+E:\VSProjects\LearnOpengl_CN\src\advance\frame_buffer\FrameBuffer.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  CastLight.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\base_light\BaseLight.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Color.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\cast_light\CastLight.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  LightTexture.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\color\Color.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Material.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\light_texture\LightTexture.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  MultipleLights.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\material\Material.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Mesh.cpp
+E:\VSProjects\LearnOpengl_CN\src\light\multiple_lights\MultipleLights.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Model.cpp
+E:\VSProjects\LearnOpengl_CN\src\load_model\Mesh.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  ModelRun.cpp
+E:\VSProjects\LearnOpengl_CN\src\load_model\Model.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  CameraLession.cpp
+E:\VSProjects\LearnOpengl_CN\src\load_model\ModelRun.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Cooridinate.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\camera\CameraLession.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Glsl.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\cooridinate\Cooridinate.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  HelloTriangle.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\glsl\Glsl.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Texture.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\HelloTriangle\HelloTriangle.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Transform.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\texture\Texture.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  Camera.cpp
+E:\VSProjects\LearnOpengl_CN\src\primer\transform\Transform.cpp(2,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  common_tools.cpp
+E:\VSProjects\LearnOpengl_CN\src\tools\Camera.h(2,9): fatal error C1083: 无法打开包括文件: “glfw3.h”: No such file or directory
+  shader.cpp
+E:\VSProjects\LearnOpengl_CN\src\tools\common_tools.cpp(1,9): fatal error C1083: 无法打开包括文件: “glad/glad.h”: No such file or directory
+  正在生成代码...
+E:\VSProjects\LearnOpengl_CN\src\tools\shader.h(2,10): fatal error C1083: 无法打开包括文件: “gtc/type_ptr.hpp”: No such file or directory

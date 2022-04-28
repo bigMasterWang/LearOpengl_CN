@@ -108,6 +108,9 @@
     <ClCompile Include="src\load_model\ModelRun.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\pbr\lighting\PbrLighting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -200,6 +203,9 @@
     <ClInclude Include="src\load_model\ModelRun.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\pbr\lighting\PbrLighting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -271,6 +277,10 @@
     <None Include="src\load_model\single_color.fs" />
     <None Include="src\advanced_lighting\deffered_shading\light_vs.shader" />
     <None Include="src\advanced_lighting\deffered_shading\light_fs.shader" />
+    <None Include="src\pbr\lighting\vs.shader" />
+    <None Include="src\pbr\lighting\fs.shader" />
+    <None Include="src\pbr\lighting\vs_texture.shader" />
+    <None Include="src\pbr\lighting\fs_texture.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\awesomeface.png">

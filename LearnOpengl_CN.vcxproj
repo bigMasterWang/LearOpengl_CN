@@ -150,6 +150,7 @@
     <ClCompile Include="src\load_model\Mesh.cpp" />
     <ClCompile Include="src\load_model\Model.cpp" />
     <ClCompile Include="src\load_model\ModelRun.cpp" />
+    <ClCompile Include="src\pbr\lighting\PbrLighting.cpp" />
     <ClCompile Include="src\primer\camera\CameraLession.cpp" />
     <ClCompile Include="src\primer\cooridinate\Cooridinate.cpp" />
     <ClCompile Include="src\primer\glsl\Glsl.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="src\load_model\Mesh.h" />
     <ClInclude Include="src\load_model\Model.h" />
     <ClInclude Include="src\load_model\ModelRun.h" />
+    <ClInclude Include="src\pbr\lighting\PbrLighting.h" />
     <ClInclude Include="src\primer\camera\CameraLession.h" />
     <ClInclude Include="src\primer\cooridinate\Cooridinate.h" />
     <ClInclude Include="src\primer\glsl\Glsl.h" />
@@ -253,6 +255,10 @@
     <None Include="src\load_model\model_loading.fs" />
     <None Include="src\load_model\model_loading.vs" />
     <None Include="src\load_model\single_color.fs" />
+    <None Include="src\pbr\lighting\fs.shader" />
+    <None Include="src\pbr\lighting\fs_texture.shader" />
+    <None Include="src\pbr\lighting\vs.shader" />
+    <None Include="src\pbr\lighting\vs_texture.shader" />
     <None Include="src\primer\camera\fragment.shader" />
     <None Include="src\primer\camera\vertex.shader" />
     <None Include="src\primer\cooridinate\fragment.shader" />
