@@ -11,7 +11,7 @@
 //#include"light/multiple_lights/MultipleLights.h"
 //#include"advance/frame_buffer/FrameBuffer.h"
 
-//#include"advance/cube_map/CubeMap.h"
+#include"advance/cube_map/CubeMap.h"
 //#include"advanced_lighting/shadow/shadow_mapping/ShadowMapping.h"
 //include"advanced_lighting/point_shadow/PointShadow.h"
 //#include"advanced_lighting/normal_mapping/NormalMapping.h"
@@ -20,10 +20,11 @@
 //#include"advanced_lighting/bloom/bloom.h"
 //#include"advanced_lighting/deffered_shading/DefferedShading.h"
 //#include"load_model/ModelRun.h"
+//#include"pbr/lighting/PbrLighting.h"
+#include"pbr/ibl/ibl_fd/IblFd.h"
 
-#include"pbr/lighting/PbrLighting.h"
 
 int main() {
-	PbrLighting glsl;
+	IblFd glsl;
 	return glsl.run();
 }

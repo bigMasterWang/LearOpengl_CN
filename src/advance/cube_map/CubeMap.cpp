@@ -256,7 +256,7 @@ int CubeMap::run()
 		glm::vec3(-3.0f, 0.0f, -10.0f),
 	};
 	// glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-
+	glDepthFunc(GL_LEQUAL);
 	while (!glfwWindowShouldClose(window))
 	{
 		current_time = glfwGetTime();
@@ -268,7 +268,6 @@ int CubeMap::run()
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		glDepthMask(GL_FALSE);
 		// 添加上照相机的移动估计就可以了
 		glBindTexture(GL_TEXTURE_CUBE_MAP, cube_map);
 		glm::mat4 view = my_camera.get_look_at_matrix();
@@ -284,7 +283,6 @@ int CubeMap::run()
 			glDrawArrays(GL_TRIANGLES, 0, 36);
 			glBindVertexArray(0);
 		}
-		glDepthMask(GL_TRUE);
 		//render
 		glActiveTexture(GL_TEXTURE0);
 		// glBindTexture(GL_TEXTURE_2D, texture1);

@@ -150,6 +150,7 @@
     <ClCompile Include="src\load_model\Mesh.cpp" />
     <ClCompile Include="src\load_model\Model.cpp" />
     <ClCompile Include="src\load_model\ModelRun.cpp" />
+    <ClCompile Include="src\pbr\ibl\ibl_fd\IblFd.cpp" />
     <ClCompile Include="src\pbr\lighting\PbrLighting.cpp" />
     <ClCompile Include="src\primer\camera\CameraLession.cpp" />
     <ClCompile Include="src\primer\cooridinate\Cooridinate.cpp" />
@@ -182,6 +183,7 @@
     <ClInclude Include="src\load_model\Mesh.h" />
     <ClInclude Include="src\load_model\Model.h" />
     <ClInclude Include="src\load_model\ModelRun.h" />
+    <ClInclude Include="src\pbr\ibl\ibl_fd\IblFd.h" />
     <ClInclude Include="src\pbr\lighting\PbrLighting.h" />
     <ClInclude Include="src\primer\camera\CameraLession.h" />
     <ClInclude Include="src\primer\cooridinate\Cooridinate.h" />
@@ -255,6 +257,16 @@
     <None Include="src\load_model\model_loading.fs" />
     <None Include="src\load_model\model_loading.vs" />
     <None Include="src\load_model\single_color.fs" />
+    <None Include="src\pbr\ibl\ibl_fd\fs.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_cubemap_to_irradiance.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_cube_map.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_rect_to_cubemap.shder" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_pbr_texture.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_sky.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_cube_map.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_pbr_texture.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_sky.shader" />
     <None Include="src\pbr\lighting\fs.shader" />
     <None Include="src\pbr\lighting\fs_texture.shader" />
     <None Include="src\pbr\lighting\vs.shader" />

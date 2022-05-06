@@ -111,6 +111,9 @@
     <ClCompile Include="src\pbr\lighting\PbrLighting.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\pbr\ibl\ibl_fd\IblFd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\test.h">
@@ -206,6 +209,9 @@
     <ClInclude Include="src\pbr\lighting\PbrLighting.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\pbr\ibl\ibl_fd\IblFd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\primer\glsl\vertex.shader" />
@@ -281,6 +287,16 @@
     <None Include="src\pbr\lighting\fs.shader" />
     <None Include="src\pbr\lighting\vs_texture.shader" />
     <None Include="src\pbr\lighting\fs_texture.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_cube_map.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_cube_map.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_rect_to_cubemap.shder" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_pbr_texture.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_pbr_texture.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_sky.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs_sky.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs_cubemap_to_irradiance.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\vs.shader" />
+    <None Include="src\pbr\ibl\ibl_fd\fs.shader" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\image\awesomeface.png">
